@@ -1,11 +1,11 @@
-package com.example.andrei.spring1.game;
+package game;
 
 public class GameRunner {
 
-    private MarioGame game;
+    private GamingConsole game;
 
-    public GameRunner(MarioGame marioGame) {
-        this.game = marioGame;
+    public GameRunner(GamingConsole game) {
+        this.game = game;
     }
 
 
